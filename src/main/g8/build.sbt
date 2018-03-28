@@ -15,7 +15,7 @@ lazy val root = (project in file(".")).
   settings(
     inThisBuild(List(
       organization    := "$organization$",
-      scalaVersion    := "$scalaVersion$"
+      scalaVersion    := "2.12.5"
     )),
     name := "$name;format="norm"$",
     libraryDependencies ++= Seq(
